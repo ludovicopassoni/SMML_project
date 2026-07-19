@@ -9,7 +9,7 @@ experiments/
 ├──common.py                        #shared functions (dataset loading, plotting, gamma_list)
 ├──feature_map_comparison.py        #RFF vs polynomial feature map
 ├──gamma_effect.py                  #effect of RBF bandwidth
-├──run_experiment.py               #comparison between linear vs kernel vs RFF 
+├──run_experiment.py                #comparison between linear vs kernel vs RFF 
 └──runtime_accuracy.py              #runtime vs accuracy trade-off
 
 notebook/
