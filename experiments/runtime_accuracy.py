@@ -10,7 +10,7 @@ from src.kernels import median_heuristic_gamma
 
 
 def collect_runtime_accuracy_data(X_train, X_test, y_train, y_test, n_components_list, dataset_name):
-    results = []  # lista di dizionari o tuple, uno per ogni configurazione testata
+    results = []  #list of dictionaries or tuples, one for each tested configuration
     t0 = time.time()
     linear_baseline = LinearSVM()
     linear_baseline.fit(X_train, y_train)

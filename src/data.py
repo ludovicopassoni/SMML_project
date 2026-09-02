@@ -18,8 +18,8 @@ def make_synthetic_classification_dataset(n_samples=400, c=1.5, std=0.6, random_
     X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=test_size, random_state=random_state, stratify=y)
 
     scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train)   # fit + transform sul train
-    X_test = scaler.transform(X_test)         # solo transform sul test, usando le statistiche del train
+    X_train = scaler.fit_transform(X_train)   
+    X_test = scaler.transform(X_test)         
 
     return X_train, X_test, y_train, y_test
 
